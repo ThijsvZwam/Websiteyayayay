@@ -1,0 +1,28 @@
+body {
+    background: #FFD4D4;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+
+.Container1 {
+    width: 1400px;
+    height: 500px;
+    margin: auto;
+    background: white; /* om te kijken hoe groot de container is*/
+    padding: 1px;
+    justify-content: center;
+    /*align-items: center;*/
+    text-align: center;
+    border-radius: 25px;
+    display: grid;
+    grid-gap: 200px;
+    grid-template-columns: auto auto auto;
+}
+
+.Box1 {
+    background: #FFD4D4;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+}
